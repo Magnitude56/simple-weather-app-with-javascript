@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css"/>
+        <title>Magnitude Hava Durumu</title>
+    </head>
+    <body>
+        <div class="mainContainer">
+            <h1>Welcome to weather check</h1>
+            <div class="container">
+                <div id="title">
+                    
+                </div>
+                <div id="body">
+                    <input type="text" id="text" placeholder="Enter The City"/>
+                    <button id="checkBtn" onclick="getResult(text.value)">Check it</button>
+                    <div id="city">City,Country</div>
+                    <div id="degree">Degree</div>
+                    <div id="weather">Weather</div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
